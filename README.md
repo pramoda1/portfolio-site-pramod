@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,3 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 =======
 # Pramod-Portfolio
 >>>>>>> c5d0b160694a59e961bb9d8d105a07ba1328b372
+=======
+# portfolio-site-pramod
+>>>>>>> 0a3da4cf97d3ab637f41c5f261ea34ff3816280b
