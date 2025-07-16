@@ -188,7 +188,7 @@ export default function Hero() {
             Computer Science graduate with a strong foundation in software engineering, backend development, and AI/ML. Experienced in building full-stack applications and machine learning models through hands-on internships and academic projects. Passionate about developing scalable backend systems, intelligent solutions, and impactful software products.
           </p>
 
-          <CTA href="/Pramoda (1).pdf" download>
+          <CTA href="/Pramoda_HS_Resume.pdf" download>
             Download CV ⬇
           </CTA>
 
