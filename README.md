@@ -44,6 +44,7 @@ portfolio-site-pramod/
 ├── README.md
 └── tailwind.config.js
 🚀 Getting Started Locally
+
 1. Clone the repository
 bash
 Copy
@@ -63,7 +64,7 @@ npm start
 Visit http://localhost:3000 to view your site locally.
 
 🌍 Live Demo
-👉 View Live Portfolio
+👉 View Live Portfolio https://pramoda1.github.io/portfolio-site-pramod/
 
 📌 Customization
 ✏️ Update Hero.jsx for name, role, and intro.
