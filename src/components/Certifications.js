@@ -136,24 +136,24 @@ const ModalContent = styled.div`
 
 const certifications = [
   {
-    name: 'Python Programing Certificate',
-    image: '/certificates/python.jpeg',
+    name: 'Python Programming Certificate',
+    image: process.env.PUBLIC_URL + '/certificates/python.jpeg',
   },
   {
     name: 'Python and Flask Certificate (Udemy)',
-    image: '/certificates/udemy.jpeg',
+    image: process.env.PUBLIC_URL + '/certificates/udemy.jpeg',
   },
   {
     name: 'NPTEL Certificate (Soft Skill Development)',
-    image: '/certificates/nptel.jpeg',
+    image: process.env.PUBLIC_URL + '/certificates/nptel.jpeg',
   },
   {
-    name: 'Titen Award Certificate (Best work)',
-    image: '/certificates/titenaward.png',
+    name: 'Titan Award Certificate (Best Work)',
+    image: process.env.PUBLIC_URL + '/certificates/titenaward.png',
   },
   {
     name: 'AIML Intern Certificate (White & Box Tech)',
-    image: '/certificates/AIML.png',
+    image: process.env.PUBLIC_URL + '/certificates/AIML.png',
   }
 ];
 
