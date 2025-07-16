@@ -2,6 +2,7 @@
   "name": "pramod",
   "version": "0.1.0",
   "private": true,
+   "homepage": "https://pramoda1.github.io/Pramod-Portfolio",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -42,7 +43,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://pramoda1.github.io/Pramod-Portfolio",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
