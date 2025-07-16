@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Pramod-Portfolio/static/css/main.6246084d.css",
+    "main.js": "/Pramod-Portfolio/static/js/main.f83c15e7.js",
+    "static/js/453.d98a5729.chunk.js": "/Pramod-Portfolio/static/js/453.d98a5729.chunk.js",
+    "static/media/image.png": "/Pramod-Portfolio/static/media/image.ea4f74309221c20515f1.png",
+    "static/media/luke.jpg": "/Pramod-Portfolio/static/media/luke.84ab1c9c4696319fcf42.jpg",
+    "index.html": "/Pramod-Portfolio/index.html",
+    "main.6246084d.css.map": "/Pramod-Portfolio/static/css/main.6246084d.css.map",
+    "main.f83c15e7.js.map": "/Pramod-Portfolio/static/js/main.f83c15e7.js.map",
+    "453.d98a5729.chunk.js.map": "/Pramod-Portfolio/static/js/453.d98a5729.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6246084d.css",
+    "static/js/main.f83c15e7.js"
+  ]
+}
