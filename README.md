@@ -1,78 +1,77 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 🌐 Developer Portfolio – Pramoda H S
+This is a personal developer portfolio website built using React, designed to showcase my skills, projects, experience, and contact information. The site features modern design elements including background video, interactive cards, animated sections, and responsive layouts.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✨ Features
+🎬 Animated Hero Section: Background video with a professional introduction.
 
-## Available Scripts
+🗂️ Project Showcase: Interactive cards for each project with GitHub links and tech tags.
 
-In the project directory, you can run:
+📚 Experience & Skills: Cleanly organized sections for tools, technologies, and career history.
 
-### `npm start`
+🧑‍💼 About Me: Highlights education, achievements, and interests.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📱 Responsive Design: Fully optimized for desktops, tablets, and mobile devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔗 Social Links & CV: GitHub, LinkedIn, and CV download integrated.
 
-### `npm test`
+🧱 Tech Stack
+Framework: React.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Styling: Tailwind CSS + Styled Components
 
-### `npm run build`
+Icons: React Icons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Deployment: GitHub Pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📁 Project Structure
+arduino
+Copy
+Edit
+portfolio-site-pramod/
+├── public/
+│   ├── index.html
+│   └── videos/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Hero.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Experience.jsx
+│   │   └── ...
+│   ├── App.js
+│   └── index.js
+├── package.json
+├── README.md
+└── tailwind.config.js
+🚀 Getting Started Locally
+1. Clone the repository
+bash
+Copy
+Edit
+git clone https://github.com/pramoda1/portfolio-site-pramod.git
+cd portfolio-site-pramod
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+3. Start the development server
+bash
+Copy
+Edit
+npm start
+Visit http://localhost:3000 to view your site locally.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🌍 Live Demo
+👉 View Live Portfolio
 
-### `npm run eject`
+📌 Customization
+✏️ Update Hero.jsx for name, role, and intro.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🧠 Add or edit your projects inside Projects.jsx.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🎓 Modify skills/experience data in the appropriate sections under components/.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🤝 Contribution
+Feel free to fork this repo and enhance the portfolio for your own use or suggest improvements via pull request. Designed to be flexible and reusable!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Pramod-Portfolio
->>>>>>> c5d0b160694a59e961bb9d8d105a07ba1328b372
-=======
-# portfolio-site-pramod
->>>>>>> 0a3da4cf97d3ab637f41c5f261ea34ff3816280b
