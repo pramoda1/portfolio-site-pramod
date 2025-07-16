@@ -3,9 +3,55 @@ import styled from 'styled-components';
 import { FaLinkedin, FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa';
 import profilePic from '../assets/luke.jpg';
 
-const HeroSection = styled.section`/* ... same as your code ... */`;
-const Left = styled.div`/* ... same as your code ... */`;
-const CTA = styled.button`  /* <- Change to button */
+const HeroSection = styled.section`
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  min-height: 80vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row; /* Always row */
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allows wrap on small screens */
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
+`;
+
+const Left = styled.div`
+  flex: 1;
+  min-width: 300px;
+  margin-top: -40px;
+
+  h2 {
+    color: #999;
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+
+  span {
+    color: #00ff88;
+  }
+
+  p {
+    color: #bbb;
+    margin: 1rem 0;
+    max-width: 400px;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 20px;
+    padding-right: 1rem;
+  }
+`;
+
+const CTA = styled.a`
   display: inline-block;
   padding: 0.75rem 1.5rem;
   background-color: #00ff88;
@@ -14,23 +60,123 @@ const CTA = styled.button`  /* <- Change to button */
   font-weight: bold;
   text-decoration: none;
   transition: background 0.3s;
-  border: none;
-  cursor: pointer;
 
   &:hover {
     background-color: #00cc6a;
   }
 `;
-const Icons = styled.div`/* ... same as your code ... */`;
-const Right = styled.div`/* ... same as your code ... */`;
-const ImageWrapper = styled.div`/* ... same as your code ... */`;
-const ExperienceText = styled.div`/* ... same as your code ... */`;
-const Wrapper = styled.div`/* ... same as your code ... */`;
 
-// ✅ JavaScript force-download function
+const Icons = styled.div`
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+
+  svg {
+    font-size: 1.5rem;
+    color: #00ff88;
+    transition: 0.3s;
+
+    &:hover {
+      color: white;
+    }
+  }
+`;
+
+const Right = styled.div`
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    margin-top: 20px;
+  }
+`;
+
+const ImageWrapper = styled.div`
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  padding: 1rem;
+  margin-top: -150px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px dotted #00ff88;
+    animation: pulse 2s infinite;
+    z-index: 0;
+  }
+
+  img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  @media (max-width: 480px) {
+    width: 180px;
+    height: 180px;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.05);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+`;
+
+const ExperienceText = styled.div`
+  position: absolute;
+  top: -10px;
+  right: -150px;
+  background: transparent;
+  color: red;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: blink 1s infinite;
+
+  span {
+    display: block;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+`;
+
+const Wrapper = styled.div`
+  position: relative;
+  overflow: hidden;
+`;
 const downloadPDF = () => {
   const link = document.createElement('a');
-  link.href = 'https://pramoda1.github.io/portfolio-site-pramod/Pramoda_HS_Resume.pdf'; // Make sure this path is correct
+  link.href = `${process.env.PUBLIC_URL}/Pramoda_HS_Resume.pdf`; // Correct path
   link.download = 'Pramoda_HS_Resume.pdf';
   document.body.appendChild(link);
   link.click();
@@ -50,8 +196,7 @@ export default function Hero() {
             Computer Science graduate with a strong foundation in software engineering, backend development, and AI/ML. Experienced in building full-stack applications and machine learning models through hands-on internships and academic projects. Passionate about developing scalable backend systems, intelligent solutions, and impactful software products.
           </p>
 
-          {/* ✅ Button that triggers PDF download */}
-          <CTA onClick={downloadPDF}>
+           <CTA onClick={downloadPDF}>
             Download CV ⬇
           </CTA>
 
