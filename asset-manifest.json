@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio-site-pramod/static/css/main.6246084d.css",
-    "main.js": "/portfolio-site-pramod/static/js/main.5a100aba.js",
+    "main.js": "/portfolio-site-pramod/static/js/main.dd0845c7.js",
     "static/js/453.d98a5729.chunk.js": "/portfolio-site-pramod/static/js/453.d98a5729.chunk.js",
     "static/media/image.png": "/portfolio-site-pramod/static/media/image.ea4f74309221c20515f1.png",
     "static/media/luke.jpg": "/portfolio-site-pramod/static/media/luke.84ab1c9c4696319fcf42.jpg",
     "index.html": "/portfolio-site-pramod/index.html",
     "main.6246084d.css.map": "/portfolio-site-pramod/static/css/main.6246084d.css.map",
-    "main.5a100aba.js.map": "/portfolio-site-pramod/static/js/main.5a100aba.js.map",
+    "main.dd0845c7.js.map": "/portfolio-site-pramod/static/js/main.dd0845c7.js.map",
     "453.d98a5729.chunk.js.map": "/portfolio-site-pramod/static/js/453.d98a5729.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6246084d.css",
-    "static/js/main.5a100aba.js"
+    "static/js/main.dd0845c7.js"
   ]
 }
